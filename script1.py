@@ -1,0 +1,5 @@
+member1=str(input("Enter first name: "))
+member2=str(input("Enter last name: "))
+print("concatenated tuples:")
+print(member1 + member2)
+print("Hello John Doe! Welcome to the course")
