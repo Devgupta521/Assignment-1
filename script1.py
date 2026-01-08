@@ -1,5 +1,5 @@
-member1=str(input("Enter first name: "))
-member2=str(input("Enter last name: "))
-print("concatenated tuples:")
-print(member1 + member2)
-print("Hello John Doe! Welcome to the course")
+first_name = input("Enter your first name: ")
+last_name = input("Enter your last name: ")
+full_name = first_name + " " + last_name
+print(full_name)
+print(f"Hello {full_name}! Welcome to Python program")
